@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Montserrat;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#page-1
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#nav
+{
+    height: 80px;
+    width: 100%;
+    background-color: #FFD316;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 2px solid black;
+
+}
+#nav img 
+{
+    height: 40px;
+    margin-left: 50px;
+}
+#nav-1 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    margin-left:420px;
+    /* background-color: violet; */
+}
+#nav-1 h3
+{
+    font-weight: 500;
+cursor: pointer;
+font-size: 18px;
+}
+#nav-2 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+    gap: 20px;
+
+}
+#nav-2 i
+{
+    font-size:25px;
+    cursor: pointer;
+}
+
+#box 
+{
+    height: 40vh;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#box img 
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+#box-1
+{
+    height:50vh;
+    width: 100%;
+    background-color: #C8EBFF;
+    position: relative;
+    margin-top: 0px;
+    padding: 30px 60px;
+    padding-left: 120px;
+   
+}
+
+.one
+{
+    height: 60px;
+    width: 60px;
+   position: absolute;
+   top:12.9%;
+   left: 12%;
+}
+.two
+{
+    height: 160px;
+   margin-left:1100px;
+   margin-bottom:10px;
+}
+.box-2
+{
+
+        height:75%;
+        width:95%;
+        border: 2px solid black;
+        margin-top:-100px;
+        border-radius: 30px;
+        background-color: #72B8DE;
+        padding: 20px 25px;
+}
+.box-2 h3
+{
+    position: absolute;
+    top: 43%;
+    left:32%;
+    font-size:45px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.box-2 h4
+{
+    position: absolute;
+    text-align: center;
+    top:60%;
+    left: 10%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+#page-2
+{
+    height: 100%;
+    width: 100%;
+ 
+  
+
+}
+#page-2 img 
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+    animation-name: up;
+    animation-duration: 3s;
+   animation-fill-mode: forwards;
+   
+    animation-iteration-count: 1;
+
+}
+@keyframes up {
+    from{
+        top:0%;
+    }
+    to{
+        top:-100%;
+    }
+}
